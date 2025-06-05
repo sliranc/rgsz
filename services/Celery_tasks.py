@@ -17,4 +17,6 @@ celery_app.conf.beat_schedule = {
         "schedule": crontab(minute="*"),
     },
 }
+
+##test 
 celery_app.conf.timezone = "UTC"
