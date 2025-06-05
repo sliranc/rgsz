@@ -16,5 +16,8 @@ celery_app.conf.beat_schedule = {
         "task": "services.Celery_tasks.collect_pod_utilization",
         "schedule": crontab(minute="*"),
     },
+
+
+    
 }
 celery_app.conf.timezone = "UTC"
